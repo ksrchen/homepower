@@ -58,8 +58,8 @@
     
     NSData *data = UIImagePNGRepresentation(smallImage);
     
-    UIImage *test = [UIImage imageWithData:data];
-    CGSize size = [test size];
+    //UIImage *test = [UIImage imageWithData:data];
+   // CGSize size = [test size];
     
     [self setThumbnailData:data ];
     UIGraphicsEndImageContext();

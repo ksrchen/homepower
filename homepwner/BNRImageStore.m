@@ -83,7 +83,7 @@
 
 -(void)clearCache
 {
-    NSLog(@"flusing %d images out of the cache", [dictionary count]);
+    NSLog(@"flusing %lud images out of the cache",(unsigned long) [dictionary count]);
     [dictionary removeAllObjects];
 }
 @end
